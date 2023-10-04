@@ -66,3 +66,52 @@
 # print(f"Product of elements with /3 indexes is: {product_index3}, product of values between min amd max: {product_min_max}")
 # print(f"Sum of values between the first and the last positive: {sum_between_positive}")
 
+
+# Є список цілих, заповнений випадковими числами.
+# На підставі даних цього масиву потрібно:
+# ■ Створити список цілих, що містить лише парні числа з першого списку;
+# ■ Створити список цілих, що містить лише непарні числа з першого списку;
+# ■ Створити список цілих, що містить лише негативні числа з першого списку;
+# ■ Створити список цілих, що містить лише позитивні числа з першого списку.
+#
+# import random
+#
+# nums = []
+# NUM_SIZE = 10
+#
+# for i in range(NUM_SIZE):
+#     nums.append(random.randint(-50,50))
+#
+# print(nums)
+#
+# even_list = []
+#
+# for number in nums:
+#     if number % 2 == 0:
+#         even_list.append(number)
+#
+# print(f"Even_values: {even_list}")
+#
+# odd_list = []
+#
+# for number in nums:
+#     if number % 2 != 0:
+#         odd_list.append(number)
+#
+# print(f"Odd values: {odd_list}")
+#
+# negative_list = []
+#
+# for number in nums:
+#     if number < 0:
+#         negative_list.append(number)
+#
+# print(f"Negative values: {negative_list}")
+#
+# positive_list = []
+#
+# for number in nums:
+#     if number > 0:
+#         positive_list.append(number)
+#
+# print(f"Positive values: {positive_list}")
